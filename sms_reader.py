@@ -3,17 +3,10 @@
 Build a StateMachine from a text description
 
 """
-
-import re
-
-from uml_state_machine import *
+from model.line_parser import LineParser
 from state_machine import *
 
-class LineParser(object):
-    def __init__(self, reg_exp, pass1_handler, pass2_handler, kind):
-        self.reg_exp = re.compile(reg_exp)
-        self.pass_handlers = (pass1_handler, pass2_handler)
-        self.kind = kind
+
 
 class StateMachineBuilder(object):
     def __init__(self, sm, extra_parser=None):

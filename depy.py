@@ -6,7 +6,7 @@ from PySide6.QtWidgets import QMessageBox, QApplication
 
 from main_window import MainWindow
 from mode_generate_dep import ModeGenerateDep
-from state_diagram import *
+from model.state_diagram import *
 
 ROSE_FACTOR = 4
 

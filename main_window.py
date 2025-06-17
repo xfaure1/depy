@@ -15,7 +15,7 @@ from generate_dot import generate_dot_from_pyreverse, get_dep_from_dot, generate
 from mode_generate_dep import ModeGenerateDep
 from semantics_edit import SemanticsEdit
 from sms_reader import StateMachineBuilder
-from state_diagram import StateDiagram
+from model.state_diagram import StateDiagram
 from status_bar import StatusBar
 from uml_state_machine import StateMachine
 from xml_reader_writer import XMLReader, XMLWriter
