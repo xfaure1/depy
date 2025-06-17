@@ -1,9 +1,6 @@
 import re
 
-from uml_state_machine import Behavior
-
-
-class MyBehavior(Behavior):
+class MyBehavior(object):
     def __init__(self, action, check, context):
         self.action = action # string
         self.check = check # bool

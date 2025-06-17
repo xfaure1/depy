@@ -3,7 +3,7 @@ from PySide6.QtWidgets import QGraphicsScene
 
 from gui.graphics_view import getMapping
 from gui.transition_gitem import TransitionGItem
-from uml_state_machine import TransitionKind, Transition_Id
+from state.transition_kind import TransitionKind
 
 
 class GraphicsScene(QGraphicsScene):
@@ -77,8 +77,7 @@ class GraphicsScene(QGraphicsScene):
                 else:
                     endpoint = None
                 if endpoint:
-                    trans_gi = self.get_transition_gi(Transition_Id(trans))
-                    # print 'collect: %s' % Transition_Id(trans)
+                    trans_gi = self.get_transition_gi(trans.get_id_str())
                     if trans_gi:  # no append when transition gi are not yet created
                         collected.append((trans_gi, endpoint))
 

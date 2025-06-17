@@ -6,7 +6,7 @@ from PySide6.QtWidgets import QGraphicsItem, QMenu, QStyle
 
 from constant_value import ITEMS_FONT, LINE_COLOR
 from gui.vertex_gitem import VertexGItem
-from uml_state_machine import TransitionKind
+from state.transition_kind import TransitionKind
 
 MIN_STATE_WIDTH = 100
 MIN_STATE_HEIGHT = 30

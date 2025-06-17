@@ -13,12 +13,13 @@ from cheat_sheet import CheatSheet
 from compileHeaders import GetCmdsErrorFileName
 from generate_dot import generate_dot_from_pyreverse, get_dep_from_dot, generate_dot_from_source
 from mode_generate_dep import ModeGenerateDep
+from model.xml_reader import XMLReader
+from model.xml_writer import XMLWriter
 from semantics_edit import SemanticsEdit
 from sms_reader import StateMachineBuilder
 from model.state_diagram import StateDiagram
+from state.state_machine import StateMachine
 from status_bar import StatusBar
-from uml_state_machine import StateMachine
-from xml_reader_writer import XMLReader, XMLWriter
 
 ORGANIZATION_NAME = 'Soft'
 ORGANIZATION_DOMAIN='soft.com'

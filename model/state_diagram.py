@@ -11,7 +11,7 @@ from gui.graphics_scene import GraphicsScene
 from gui.graphics_view import GraphicsView
 from model.default_placer import DefaultPlacer
 from model.server_change_state import ServerChangeState
-from uml_state_machine import State
+from state.state import State
 
 AUTO_COLORS = (
                 '#ffffcc',

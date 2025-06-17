@@ -1,7 +1,9 @@
 from gui.pseudo_state_gitem import PseudoStateGItem
 from gui.state_gitem import StateGItem
 from gui.transition_gitem import TransitionGItem
-from uml_state_machine import State, TransitionKind, Transition_Id, PseudoState
+from state.pseudo_state import PseudoState
+from state.state import State
+from state.transition_kind import TransitionKind
 
 
 class Controller(object):
@@ -28,7 +30,7 @@ class Controller(object):
 
         for transition in regions[0].transition:
             if transition.kind != TransitionKind.internal:
-                trans_id = Transition_Id(transition)
+                trans_id = transition.get_id_str()
                 self._sm_transitions[trans_id] = transition
 
     def getVertexName(self, text):

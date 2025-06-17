@@ -1,7 +1,5 @@
-from uml_state_machine import Event
 
-
-class MyEvent(Event):
+class MyEvent(object):
     def __init__ (self, event):
         self.event = event
 

@@ -1,7 +1,5 @@
-from uml_state_machine import Event
 
-
-class MyTimeEvent(Event):
+class MyTimeEvent(object):
     def __init__ (self, timeout):
         self.timeout = timeout
 

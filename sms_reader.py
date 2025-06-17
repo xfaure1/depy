@@ -3,11 +3,13 @@
 Build a StateMachine from a text description
 
 """
-from behaviour.my_behaviour import MyBehavior
-from behaviour.my_event import MyEvent
-from behaviour.my_time_event import MyTimeEvent
+from constant_value import PSEUDO_STATE_INITIAL
+from state.constraint import Constraint
+from state.my_behaviour import MyBehavior
+from state.my_event import MyEvent
+from state.my_time_event import MyTimeEvent
 from model.line_parser import LineParser
-from uml_state_machine import PseudoStateKind, Trigger, Constraint
+from state.trigger import Trigger
 
 
 class StateMachineBuilder(object):
@@ -119,7 +121,7 @@ class StateMachineBuilder(object):
                     self._append_error('initial state inside %s already defined' %
                                         parent_state, match_res.span(0))
                 return
-            obj = self._sm.add_pseudo_state(initial_name, PseudoStateKind.initial, parent_state + '|')
+            obj = self._sm.add_pseudo_state(initial_name, PSEUDO_STATE_INITIAL, parent_state + '|')
             self._def_lines[obj] = self._line_nb
 
     def _pass2_state(self, match_res):
@@ -143,7 +145,7 @@ class StateMachineBuilder(object):
         if self._sm.has_state(initial_name):
             self._append_error('initial state already defined', match_res.span(0))
             return
-        obj = self._sm.add_pseudo_state(initial_name, PseudoStateKind.initial, self._get_current_state() + '|')
+        obj = self._sm.add_pseudo_state(initial_name, PSEUDO_STATE_INITIAL, self._get_current_state() + '|')
         self._def_lines[obj] = self._line_nb
 
     def _pass2_initial(self, match_res):

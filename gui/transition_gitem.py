@@ -9,7 +9,7 @@ from gui.click_zone import ClickZone
 from gui.seg_point import SegPoint
 from gui.segment import Segment
 from gui.transition_text_gitem import TransitionTextGItem
-from uml_state_machine import TransitionKind
+from state.transition_kind import TransitionKind
 
 
 def addCouple(tab, point, rule):

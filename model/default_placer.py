@@ -4,7 +4,7 @@ from PySide6.QtCore import QPointF, QRectF
 
 from constant_value import VERTICAL_SEG, HORIZON_SEG
 from gui.seg_rule import SegRule
-from uml_state_machine import State
+from state.state import State
 
 
 class DefaultPlacer(object):
