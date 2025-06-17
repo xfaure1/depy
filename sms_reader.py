@@ -3,9 +3,11 @@
 Build a StateMachine from a text description
 
 """
+from behaviour.my_behaviour import MyBehavior
+from behaviour.my_event import MyEvent
+from behaviour.my_time_event import MyTimeEvent
 from model.line_parser import LineParser
-from state_machine import *
-
+from uml_state_machine import PseudoStateKind, Trigger, Constraint
 
 
 class StateMachineBuilder(object):

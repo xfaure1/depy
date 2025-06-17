@@ -1,12 +1,7 @@
-"""
-
-Specialization of uml_state_machine.Behavior and .Event
-
-"""
-
 import re
 
-from uml_state_machine import *
+from uml_state_machine import Behavior
+
 
 class MyBehavior(Behavior):
     def __init__(self, action, check, context):
@@ -66,28 +61,4 @@ class MyBehavior(Behavior):
                re.sub(r'%s', auto_source,
                re.sub(r'%t', auto_target,
                re.sub(r'%E', auto_event, self.action)))))
-
-
-class MyEvent(Event):
-    def __init__ (self, event):
-        self.event = event
-
-    def id(self):
-        if self.event:
-            return self.event
-        else:
-            return 'Check'
-
-    def __str__(self):
-        return self.event
-
-class MyTimeEvent(Event):
-    def __init__ (self, timeout):
-        self.timeout = timeout
-
-    def id(self):
-        return 'after%s%s' % (self.timeout[0].upper(), self.timeout[1:])
-
-    def __str__(self):
-        return 'after(%s)' % self.timeout
 
