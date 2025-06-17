@@ -76,6 +76,17 @@ class Transition(object):
                                 for trans_ref in Transition.allInstances
                                 if trans_ref()]
 
+    def get_str(self):
+        text_parts = []
+        if self.trigger:
+            text_parts.append(str(self.trigger.event))
+        if self.guard:
+            text_parts.append('[%s]' % str(self.guard))
+        if self.effect:
+            text_parts.append('/%s' % str(self.effect))
+        return ' '.join(text_parts)
+
+
 def Transition_Id(transition):
     id = '%s->%s:' % (transition.source.name, transition.target.name)
     if transition.trigger:
@@ -83,6 +94,10 @@ def Transition_Id(transition):
     if transition.guard:
         id += '[' + str(transition.guard) + ']'
     return id
+
+
+
+
 
 class Vertex(object):
     def __init__(self, container):
@@ -110,13 +125,6 @@ class PseudoState(Vertex):
 
     def __str__(self):
         return self.name
-
-class ConnectionPointReference(Vertex):
-    def __init__(self, state, entry, exit):
-        Vertex.__init__(self, container)
-        self.state = state
-        self.entry = entry
-        self.exit = exit
 
 
 class State(Vertex):

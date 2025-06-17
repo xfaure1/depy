@@ -1,10 +1,12 @@
+import sys
+import traceback
+
+from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QMessageBox, QApplication
 
 from main_window import MainWindow
 from mode_generate_dep import ModeGenerateDep
 from state_diagram import *
-from xml_reader_writer import *
-from add_super_state import *
 
 ROSE_FACTOR = 4
 

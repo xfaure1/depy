@@ -1,12 +1,22 @@
-from PySide6.QtCore import QEvent
-from PySide6.QtGui import QKeySequence, QShortcut
+import math
+
+from PySide6.QtCore import QEvent, Signal, QPointF, QRectF, Qt
+from PySide6.QtGui import QKeySequence, QShortcut, QColor
 from PySide6.QtWidgets import QToolButton, QLineEdit, QPushButton, QSizePolicy, QHBoxLayout, QLabel, QWidget, \
     QVBoxLayout, QStackedLayout
 
-from graphics_items import *
 import socket
 import threading
 import numpy as np
+
+from constant_value import VERTICAL_SEG, HORIZON_SEG
+from gui.graphics_scene import GraphicsScene
+from gui.graphics_view import GraphicsView
+from gui.pseudo_state_gitem import PseudoStateGItem
+from gui.seg_rule import SegRule
+from gui.state_gitem import StateGItem
+from gui.transition_gitem import TransitionGItem
+from uml_state_machine import State, TransitionKind, Transition_Id, PseudoState
 
 AUTO_COLORS = (
                 '#ffffcc',
@@ -156,23 +166,23 @@ class DefaultPlacer(object):
             abs_middle = trans_gi.rel_to_abs_point(trans_gi._source_gi, middle_point)
             abs_target = trans_gi.rel_to_abs_point(trans_gi._target_gi, trans_gi._target_point)
             trans_gi._rules = \
-                [TransitionGItem.SegRule(TransitionGItem.VertSeg, abs_source),
-                 TransitionGItem.SegRule(TransitionGItem.HorizSeg, abs_middle),
-                 TransitionGItem.SegRule(TransitionGItem.VertSeg, abs_target)]
+                [SegRule(VERTICAL_SEG, abs_source),
+                 SegRule(HORIZON_SEG, abs_middle),
+                 SegRule(VERTICAL_SEG, abs_target)]
         elif trans_gi.is_local_transition():
             # local transition: from source border to target center
             trans_gi._source_point = QPointF(0, 0)
             trans_gi._target_point = QPointF(0.5, 0.5)
             abs_source = trans_gi.rel_to_abs_point(trans_gi._source_gi, trans_gi._source_point)
             abs_target = trans_gi.rel_to_abs_point(trans_gi._target_gi, trans_gi._target_point)
-            trans_gi._rules = [TransitionGItem.SegRule(TransitionGItem.HorizSeg, abs_source)]
+            trans_gi._rules = [SegRule(HORIZON_SEG, abs_source)]
         else:
             # regular transition: from source center to target center
             trans_gi._source_point = QPointF(0.5, 0.5)
             trans_gi._target_point = QPointF(0.5, 0.5)
             abs_source = trans_gi.rel_to_abs_point(trans_gi._source_gi, trans_gi._source_point)
             abs_target = trans_gi.rel_to_abs_point(trans_gi._target_gi, trans_gi._target_point)
-            trans_gi._rules = [TransitionGItem.SegRule(TransitionGItem.HorizSeg, abs_source)]
+            trans_gi._rules = [SegRule(HORIZON_SEG, abs_source)]
         trans_gi.rebuild_path(False)
         trans_gi.rebuild_rules(False)
 
@@ -390,9 +400,6 @@ class StateDiagram(QWidget):
 
         # Get vertices with info match or not match
         selected = self.controller.getVertexSelected()
-
-        # Update file with new super state
-        self._parent.rewrite_superstate(self._superstate_combo_wg.text(), selected)
 
         # Hide the super state
         self._superstate_wg.hide()

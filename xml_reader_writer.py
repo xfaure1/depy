@@ -1,6 +1,10 @@
-from PySide6.QtCore import QXmlStreamWriter, QXmlStreamReader
+from PySide6.QtCore import QXmlStreamWriter, QXmlStreamReader, QRectF, QPointF
+from PySide6.QtGui import QColor
 
-from graphics_items import *
+from gui.pseudo_state_gitem import PseudoStateGItem
+from gui.seg_rule import SegRule
+from gui.state_gitem import StateGItem
+from gui.transition_gitem import TransitionGItem
 
 
 class XMLWriter(object):
@@ -198,7 +202,7 @@ class XMLReader(object):
         for elem_name in elements(self._stream, ('anchor',)):
             if elem_name == 'anchor':
                 anchor = self.read_QPointF()
-        return TransitionGItem.SegRule(orient, anchor)
+        return SegRule(orient, anchor)
 
     def read_QRectF(self):
         attribs = self._stream.attributes()

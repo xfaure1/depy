@@ -9,7 +9,6 @@ from PySide6.QtWidgets import QMainWindow, QMessageBox, QHBoxLayout, QCheckBox, 
     QLabel, QTreeWidgetItem, QDockWidget, QTreeWidget, QWidget, QTabWidget, QFileDialog, \
     QToolButton, QVBoxLayout, QApplication
 
-from add_super_state import AddSuperState
 from cheat_sheet import CheatSheet
 from compileHeaders import GetCmdsErrorFileName
 from generate_dot import generate_dot_from_pyreverse, get_dep_from_dot, generate_dot_from_source
@@ -752,14 +751,6 @@ class MainWindow(QMainWindow):
 
         # Update combo box
         self._selected_combo_wg.setText(selected)
-
-    def rewrite_superstate(self, name_superstate, selectedVertices):
-
-        # Create object to do the job :
-        # -> Argument (filename, superstate name, selected vertices, statemachine)
-        # -> Check if a super state can be done with the selected vertices
-        # -> Update file to do the job
-        AddSuperState(self._sms_name, name_superstate, selectedVertices, self._sm)
 
     def load_files(self, file_base):
 
