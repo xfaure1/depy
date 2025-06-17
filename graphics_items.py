@@ -7,8 +7,8 @@ from PySide6.QtWidgets import QGraphicsItem, QStyle, QGraphicsPathItem, QMenu, Q
 from uml_state_machine import *
 
 PointSize = 10
-ZVALUE_VERTEX = 0
-ZVALUE_TRANSITION = 1  # transitions are above states
+Z_VALUE = 0
+Z_VALUE_TRANSITION = 1  # transitions are above states
 LINE_COLOR = QColor('#990033')
 ITEMS_FONT = 'Arial'
 MIN_TRANS_TEXT_WIDTH = 50
@@ -331,7 +331,7 @@ class TransitionGItem(QGraphicsPathItem):
         self._shape = QPainterPath() # attribute returned by shape(), built from _segments
         self._text_pos = QPointF() # automatic position of transition text
         self._text_gi = TransitionTextGItem(self)
-        self.setZValue(ZVALUE_TRANSITION)
+        self.setZValue(Z_VALUE_TRANSITION)
         self.setFlags(QGraphicsItem.ItemIsSelectable|
                       QGraphicsItem.ItemIsFocusable |
                       QGraphicsItem.ItemSendsGeometryChanges)
@@ -655,7 +655,7 @@ class VertexGItem(QGraphicsItem):
                       QGraphicsItem.ItemIsFocusable|
                       QGraphicsItem.ItemSendsGeometryChanges)
         self._rect = QRectF(0,0,1,1)
-        self.setZValue(ZVALUE_VERTEX)
+        self.setZValue(Z_VALUE)
         self._excluded = False # excluded from diagram
         self._moving = False
             
