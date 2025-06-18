@@ -16,35 +16,46 @@ def addCouple(tab, point, rule):
     tab.append([point.x(), point.y(), rule])
 
 
-# Build a simplified path: stop as soon as it intersects the sink rect
-def streamline(sink_rect, seg_points, local_collision):
+def find_intersection_with_rect(rect, line):
+    edges = [
+        QLineF(rect.topLeft(), rect.topRight()),
+        QLineF(rect.topRight(), rect.bottomRight()),
+        QLineF(rect.bottomRight(), rect.bottomLeft()),
+        QLineF(rect.bottomLeft(), rect.topLeft()),
+    ]
+
+    intersections = []
+    for edge in edges:
+        res, pt = edge.intersects(line)
+        if res == QLineF.BoundedIntersection:
+            intersections.append(pt)
+    return intersections
+
+def streamline(rect, seg_points):
+    if not seg_points:
+        return []
+
     result = []
-    if len(seg_points) == 0:  # or sink_rect.contains(seg_points[0].point): # limit cases
-        return result
     sp1 = seg_points[0]
-    for sp in seg_points[1:]:
-        sp2 = sp
+
+    for sp2 in seg_points[1:]:
         result.append(sp1)
         line = QLineF(sp1.point, sp2.point)
-        int_point = QPointF()
-        # round to avoid floating-point errors while switching coordinates systems
-        dx = round(sp2.point.x() - sp1.point.x())
-        dy = round(sp2.point.y() - sp1.point.y())
-        if local_collision:
-            dx = -dx
-            dy = -dy
-        if dy > 0:
-            int_res, int_point = QLineF(sink_rect.topLeft(), sink_rect.topRight()).intersects(line)
-        elif dy < 0:
-            int_res, int_point = QLineF(sink_rect.bottomLeft(), sink_rect.bottomRight()).intersects(line)
-        elif dx > 0:
-            int_res, int_point = QLineF(sink_rect.topLeft(), sink_rect.bottomLeft()).intersects(line)
-        else:
-            int_res, int_point = QLineF(sink_rect.topRight(), sink_rect.bottomRight()).intersects(line)
-        if int_res == QLineF.BoundedIntersection:
-            result.append(SegPoint(int_point, sp2.rule_before))
+
+        # Trouve les points d'intersection avec le rectangle
+        intersections = find_intersection_with_rect(rect, line)
+
+        if intersections:
+            # Ordonne les points dans l’ordre du segment
+            intersections.sort(key=lambda p: QLineF(sp1.point, p).length())
+
+            # On prend le premier point d'intersection valide
+            intersection_point = intersections[0]
+            result.append(SegPoint(intersection_point, sp2.rule_before))
             break
+
         sp1 = sp2
+
     return result
 
 
@@ -261,10 +272,10 @@ class TransitionGItem(QGraphicsPathItem):
             seg_points.append(SegPoint(QPointF(x, y), cpl[2]))
 
         # print 'stream line to target'
-        seg_points = streamline(target_rect, seg_points, False)
+        seg_points = streamline(target_rect, seg_points)
         seg_points.reverse()
         # print 'stream line to source'
-        seg_points = streamline(source_rect, seg_points, self.is_local_transition())
+        seg_points = streamline(source_rect, seg_points)
         seg_points.reverse()
 
         # Construct the actual Segments from the SegPoints, building the global

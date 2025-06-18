@@ -739,7 +739,8 @@ class MainWindow(QMainWindow):
                 self.MessageBoxCompileFile(resCompilation)
 
     def new_diagram(self, name=''):
-        diagram = StateDiagram(self)
+        is_used_diagonal = True
+        diagram = StateDiagram(self, is_used_diagonal)
         diagram.dirty.connect(self.set_dirty)
         self._diagrams.append(diagram)
         if not name: name = 'Diagram'

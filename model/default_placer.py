@@ -8,6 +8,9 @@ from state.state import State
 
 
 class DefaultPlacer(object):
+    def __init__(self, is_used_diagonal):
+        self.is_used_diagonal = is_used_diagonal
+
     """Standard Placer
 
     This class assigns positions to orphans vertices and transitions, i.e.
@@ -112,9 +115,11 @@ class DefaultPlacer(object):
             trans_gi._source_point = QPointF(0.5, 0.5)
             trans_gi._target_point = QPointF(0.5, 0.5)
             abs_source = trans_gi.rel_to_abs_point(trans_gi._source_gi, trans_gi._source_point)
-            abs_target = trans_gi.rel_to_abs_point(trans_gi._target_gi, trans_gi._target_point)
-            # trans_gi._rules = [SegRule(DIAGONAL_SEG, abs_source)]
-            trans_gi._rules = [SegRule(HORIZON_SEG, abs_source)]
+
+            if self.is_used_diagonal:
+                trans_gi._rules = [SegRule(DIAGONAL_SEG, abs_source)]
+            else:
+                trans_gi._rules = [SegRule(HORIZON_SEG, abs_source)]
         trans_gi.rebuild_path(False)
         trans_gi.rebuild_rules(False)
 

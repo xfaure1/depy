@@ -128,8 +128,9 @@ class StateDiagram(QWidget):
         # return layout
         return superstate_ly
 
-    def __init__(self, parent):
+    def __init__(self, parent, is_used_diagonal):
         super(StateDiagram, self).__init__(parent)
+        self.is_used_diagonal = is_used_diagonal
         self._parent = parent
 
         # Raccourci Ctrl+A
@@ -375,7 +376,8 @@ class StateDiagram(QWidget):
     def setWnd(self, wnd):
         self._wnd = wnd
 
-    def update(self, placer=DefaultPlacer()):
+    def update(self):
+        placer = DefaultPlacer(self.is_used_diagonal)
         sm = self._parent.compile()
         if sm:
             self._sm = sm
