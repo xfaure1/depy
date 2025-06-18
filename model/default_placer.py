@@ -2,7 +2,7 @@ import math
 
 from PySide6.QtCore import QPointF, QRectF
 
-from constant_value import VERTICAL_SEG, HORIZON_SEG
+from constant_value import VERTICAL_SEG, HORIZON_SEG, DIAGONAL_SEG
 from gui.seg_rule import SegRule
 from state.state import State
 
@@ -113,6 +113,7 @@ class DefaultPlacer(object):
             trans_gi._target_point = QPointF(0.5, 0.5)
             abs_source = trans_gi.rel_to_abs_point(trans_gi._source_gi, trans_gi._source_point)
             abs_target = trans_gi.rel_to_abs_point(trans_gi._target_gi, trans_gi._target_point)
+            # trans_gi._rules = [SegRule(DIAGONAL_SEG, abs_source)]
             trans_gi._rules = [SegRule(HORIZON_SEG, abs_source)]
         trans_gi.rebuild_path(False)
         trans_gi.rebuild_rules(False)

@@ -71,6 +71,9 @@ class GraphicsView(QGraphicsView):
 # The average are done for these values
 # The mapping gives for these values the same average
 def getMapping(a):
+    if len(a) == 0:
+        return {}
+
     # init indexes
     indexes = [0] * len(a)
     average = [0] * len(a)

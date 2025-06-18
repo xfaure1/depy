@@ -4,7 +4,7 @@ from PySide6.QtCore import QPointF, Qt, QLineF
 from PySide6.QtGui import QPainterPath, QPen
 from PySide6.QtWidgets import QGraphicsPathItem, QGraphicsItem, QStyle
 
-from constant_value import LINE_COLOR, HORIZON_SEG
+from constant_value import LINE_COLOR, HORIZON_SEG, DIAGONAL_SEG
 from gui.click_zone import ClickZone
 from gui.seg_point import SegPoint
 from gui.segment import Segment
@@ -14,6 +14,38 @@ from state.transition_kind import TransitionKind
 
 def addCouple(tab, point, rule):
     tab.append([point.x(), point.y(), rule])
+
+
+# Build a simplified path: stop as soon as it intersects the sink rect
+def streamline(sink_rect, seg_points, local_collision):
+    result = []
+    if len(seg_points) == 0:  # or sink_rect.contains(seg_points[0].point): # limit cases
+        return result
+    sp1 = seg_points[0]
+    for sp in seg_points[1:]:
+        sp2 = sp
+        result.append(sp1)
+        line = QLineF(sp1.point, sp2.point)
+        int_point = QPointF()
+        # round to avoid floating-point errors while switching coordinates systems
+        dx = round(sp2.point.x() - sp1.point.x())
+        dy = round(sp2.point.y() - sp1.point.y())
+        if local_collision:
+            dx = -dx
+            dy = -dy
+        if dy > 0:
+            int_res, int_point = QLineF(sink_rect.topLeft(), sink_rect.topRight()).intersects(line)
+        elif dy < 0:
+            int_res, int_point = QLineF(sink_rect.bottomLeft(), sink_rect.bottomRight()).intersects(line)
+        elif dx > 0:
+            int_res, int_point = QLineF(sink_rect.topLeft(), sink_rect.bottomLeft()).intersects(line)
+        else:
+            int_res, int_point = QLineF(sink_rect.topRight(), sink_rect.bottomRight()).intersects(line)
+        if int_res == QLineF.BoundedIntersection:
+            result.append(SegPoint(int_point, sp2.rule_before))
+            break
+        sp1 = sp2
+    return result
 
 
 class TransitionGItem(QGraphicsPathItem):
@@ -97,7 +129,8 @@ class TransitionGItem(QGraphicsPathItem):
         if len(self._rules) >= 2 or vertex is self._source_gi._model:
             self._rules[0].set_anchor(self.rel_to_abs_point(self._source_gi, self._source_point))
         if len(self._rules) >= 2 or vertex is self._target_gi._model:
-            self._rules[-1].set_anchor(self.rel_to_abs_point(self._target_gi, self._target_point))
+            if self._rules[-1]._orient != DIAGONAL_SEG:
+                self._rules[-1].set_anchor(self.rel_to_abs_point(self._target_gi, self._target_point))
 
         # todo probably something better in python to join iterators
         if self.is_transition_to_self():
@@ -227,37 +260,6 @@ class TransitionGItem(QGraphicsPathItem):
             y = cpl[1]
             seg_points.append(SegPoint(QPointF(x, y), cpl[2]))
 
-        # Build a simplified path: stop as soon as it intersects the sink rect
-        def streamline(sink_rect, seg_points, local_collision):
-            result = []
-            if len(seg_points) == 0:  # or sink_rect.contains(seg_points[0].point): # limit cases
-                return result
-            sp1 = seg_points[0]
-            for sp in seg_points[1:]:
-                sp2 = sp
-                result.append(sp1)
-                line = QLineF(sp1.point, sp2.point)
-                int_point = QPointF()
-                # round to avoid floating-point errors while switching coordinates systems
-                dx = round(sp2.point.x() - sp1.point.x())
-                dy = round(sp2.point.y() - sp1.point.y())
-                if local_collision:
-                    dx = -dx
-                    dy = -dy
-                if dy > 0:
-                    int_res, int_point = QLineF(sink_rect.topLeft(), sink_rect.topRight()).intersects(line)
-                elif dy < 0:
-                    int_res, int_point = QLineF(sink_rect.bottomLeft(), sink_rect.bottomRight()).intersects(line)
-                elif dx > 0:
-                    int_res, int_point = QLineF(sink_rect.topLeft(), sink_rect.bottomLeft()).intersects(line)
-                else:
-                    int_res, int_point = QLineF(sink_rect.topRight(), sink_rect.bottomRight()).intersects(line)
-                if int_res == QLineF.BoundedIntersection:
-                    result.append(SegPoint(int_point, sp2.rule_before))
-                    break
-                sp1 = sp2
-            return result
-
         # print 'stream line to target'
         seg_points = streamline(target_rect, seg_points, False)
         seg_points.reverse()
@@ -277,7 +279,7 @@ class TransitionGItem(QGraphicsPathItem):
                 # print 'add segment with rule %s' % sp.rule_before
                 self._segments.append(segment)
                 shape = QPainterPath()
-                shape.addRect(segment.shape())
+                shape.addPath(segment.shape())
                 self._shape = self._shape.united(shape)
                 p1 = p2
 
@@ -309,13 +311,13 @@ class TransitionGItem(QGraphicsPathItem):
             penultimate = seg_points[-2].point
             line = QLineF(last, penultimate)
             if line.length():  # avoid division by zero if last segment is null
-                angle = math.acos(line.dx() / line.length());
+                angle = math.acos(line.dx() / line.length())
                 if line.dy() >= 0:
-                    angle = (math.pi * 2) - angle;
+                    angle = (math.pi * 2) - angle
                 arrowP1 = last + QPointF(math.sin(angle + math.pi / 3) * TransitionGItem.ArrowSize,
-                                         math.cos(angle + math.pi / 3) * TransitionGItem.ArrowSize);
+                                         math.cos(angle + math.pi / 3) * TransitionGItem.ArrowSize)
                 arrowP2 = last + QPointF(math.sin(angle + math.pi - math.pi / 3) * TransitionGItem.ArrowSize,
-                                         math.cos(angle + math.pi - math.pi / 3) * TransitionGItem.ArrowSize);
+                                         math.cos(angle + math.pi - math.pi / 3) * TransitionGItem.ArrowSize)
                 path.moveTo(arrowP1)
                 path.lineTo(last)
                 path.lineTo(arrowP2)
@@ -335,4 +337,3 @@ class TransitionGItem(QGraphicsPathItem):
             pen.setColor(Qt.black)
             painter.setPen(pen)
             painter.drawPath(self._shape)
-
