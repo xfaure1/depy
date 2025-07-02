@@ -10,6 +10,7 @@ from gui.seg_point import SegPoint
 from gui.segment import Segment
 from gui.transition_text_gitem import TransitionTextGItem
 from state.transition_kind import TransitionKind
+from tools.cfg import CFG
 
 
 def addCouple(tab, point, rule):
@@ -211,8 +212,15 @@ class TransitionGItem(QGraphicsPathItem):
     def rebuild_path(self, moving):
         """ Rebuild the transition path (segments) from the rules
         """
+        # Stop if diagonal
+        for rule in self._rules:
+            # If rule is diago
+            if rule is not None and rule._orient == DIAGONAL_SEG:
+                # If diagonal is not visible
+                if not CFG.is_diagonal_visible():
+                    return
+
         # To use model
-        # trans = self._model
         source_rect = self.mapFromItem(self._source_gi, self._source_gi._rect).boundingRect()
         target_rect = self.mapFromItem(self._target_gi, self._target_gi._rect).boundingRect()
 

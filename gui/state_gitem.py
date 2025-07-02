@@ -7,6 +7,7 @@ from PySide6.QtWidgets import QGraphicsItem, QMenu, QStyle
 from constant_value import ITEMS_FONT, LINE_COLOR
 from gui.vertex_gitem import VertexGItem
 from state.transition_kind import TransitionKind
+from tools.cfg import CFG
 
 MIN_STATE_WIDTH = 100
 MIN_STATE_HEIGHT = 30
@@ -186,6 +187,7 @@ class StateGItem(VertexGItem):
             pen.setColor(Qt.red)
         else:
             pen.setColor(LINE_COLOR)
+
         painter.setPen(pen)
         painter.setBrush(brush)
         painter.drawRoundedRect(self._rect, 5, 5)
@@ -201,9 +203,9 @@ class StateGItem(VertexGItem):
         rect = QRectF(self._rect.left()  + 1*STATE_TEXT_MARGIN_H,
                        self._rect.top(),
                        self._rect.width() - 2*STATE_TEXT_MARGIN_H,
-                       sepline_y)
+                       CFG.get_height_rectangle(sepline_y, self._rect.height()))
         painter.setFont(self._name_font)
-        painter.drawText(rect, Qt.AlignHCenter, self._model.name)
+        painter.drawText(rect, Qt.AlignCenter, self._model.name.replace("_"," "))
 
         # Draw state actions & events
         if self._actions_text:

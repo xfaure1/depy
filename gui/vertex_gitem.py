@@ -116,3 +116,23 @@ class VertexGItem(QGraphicsItem):
         visible = not self._excluded
         self.setVisible(visible)
 
+    # Update state graphic
+    def set_vertex_gi(self, position, dimension, is_position_center=True):
+        # Get position from item graphic vertex
+        pos = self.pos()
+        x_position = position[0]
+        y_position = position[1]
+        if is_position_center:
+            x_position -= dimension[0] / 2
+            y_position -= dimension[1] / 2
+        # Update position
+        pos.setX(x_position)
+        pos.setY(y_position)
+        self.setPos(pos)
+        # Get rectangle from item graphic vertex
+        self._rect.setX(0)
+        self._rect.setY(0)
+        self._rect.setWidth(dimension[0])
+        self._rect.setHeight(dimension[1])
+
+

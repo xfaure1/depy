@@ -12,6 +12,8 @@ from gui.graphics_view import GraphicsView
 from model.default_placer import DefaultPlacer
 from model.server_change_state import ServerChangeState
 from state.state import State
+from tools.cfg import CFG
+from tools.circle_representation import update_representation
 
 AUTO_COLORS = (
                 '#ffffcc',
@@ -128,9 +130,8 @@ class StateDiagram(QWidget):
         # return layout
         return superstate_ly
 
-    def __init__(self, parent, is_used_diagonal):
+    def __init__(self, parent):
         super(StateDiagram, self).__init__(parent)
-        self.is_used_diagonal = is_used_diagonal
         self._parent = parent
 
         # Raccourci Ctrl+A
@@ -251,21 +252,10 @@ class StateDiagram(QWidget):
         for position in all_position:
             # Get number position
             i = position[0]
-            # Get name of the selected vertex
-            vertex = selected[i]
-            # Get state graphic
-            state_graphic = self._scene.get_vertex_gi(vertex)
-            # Get position from item graphic vertex
-            pos = state_graphic.pos()
-            # Update position
-            pos.setX(position[1])
-            pos.setY(position[2])
-            state_graphic.setPos(pos)
-            # Get rectangle from item graphic vertex
-            state_graphic._rect.setX(0)
-            state_graphic._rect.setY(0)
-            state_graphic._rect.setWidth(all_dimension_x[i])
-            state_graphic._rect.setHeight(all_dimension_y[i])
+            # Get graphic vertex of the selected vertex
+            vertex = self._scene.get_vertex_gi(selected[i])
+            # Update position and dimension
+            vertex.set_vertex_gi([position[1], position[2]], [all_dimension_x[i], all_dimension_y[i]], False)
 
         # Refresh the graphic
         self.controller.unselect()
@@ -359,8 +349,9 @@ class StateDiagram(QWidget):
             else:
                 i = 0
 
-            # Update color
-            vertex_gi.background_color = QColor(AUTO_COLORS[i])
+            # Update background color If reset color when search mode
+            if CFG.is_reset_color_search():
+                vertex_gi.background_color = QColor(AUTO_COLORS[i])
 
         # Refresh vertices
         self.refresh()
@@ -377,7 +368,7 @@ class StateDiagram(QWidget):
         self._wnd = wnd
 
     def update(self):
-        placer = DefaultPlacer(self.is_used_diagonal)
+        placer = DefaultPlacer()
         sm = self._parent.compile()
         if sm:
             self._sm = sm
@@ -391,6 +382,10 @@ class StateDiagram(QWidget):
             self._info_wg.setText('The semantics description '
                                   'contains some errors which must be fixed '
                                   'before the diagram can be displayed')
+
+        # If reset representation circle then update representation
+        if CFG.is_reset_representation_circle():
+            update_representation(sm, self._scene)
 
     def zoom_100(self):
         self._view_wg.resetTransform()

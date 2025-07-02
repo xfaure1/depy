@@ -190,3 +190,22 @@ class StateMachine(object):
                 for t in v.outgoing():
                     # Write transition outgoing
                     sms_file.write("->" + str(t.target) + '\n')
+
+    def get_simple_graph(self):
+
+        # Init map
+        map_graph = {}
+        # for each node
+        for v_key in self._all_vertices:
+
+            # Get vertex
+            v = self._all_vertices[v_key]
+            # For each transition outgoing
+            for t in v.outgoing():
+                if v_key in map_graph.keys():
+                    map_graph[v_key].append(t.target.name)
+                else:
+                    map_graph[v_key] = [t.target.name]
+
+        # Return simple graph
+        return map_graph

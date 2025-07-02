@@ -5,12 +5,10 @@ from PySide6.QtCore import QPointF, QRectF
 from constant_value import VERTICAL_SEG, HORIZON_SEG, DIAGONAL_SEG
 from gui.seg_rule import SegRule
 from state.state import State
+from tools.cfg import CFG
 
 
 class DefaultPlacer(object):
-    def __init__(self, is_used_diagonal):
-        self.is_used_diagonal = is_used_diagonal
-
     """Standard Placer
 
     This class assigns positions to orphans vertices and transitions, i.e.
@@ -116,7 +114,7 @@ class DefaultPlacer(object):
             trans_gi._target_point = QPointF(0.5, 0.5)
             abs_source = trans_gi.rel_to_abs_point(trans_gi._source_gi, trans_gi._source_point)
 
-            if self.is_used_diagonal:
+            if CFG.is_used_diagonal():
                 trans_gi._rules = [SegRule(DIAGONAL_SEG, abs_source)]
             else:
                 trans_gi._rules = [SegRule(HORIZON_SEG, abs_source)]

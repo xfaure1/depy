@@ -1,0 +1,2025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body>
+  <diagram>
+    <vertex id="Vie" background="#ffffff" excluded="False">
+      <rect x="0.0" y="0.0" width="150.0" height="150.0"/>
+      <pos x="-75.0" y="-75.0"/>
+    </vertex>
+    <vertex id="Colère" background="#ffafaf" excluded="False">
+      <rect x="0.0" y="0.0" width="150.0" height="150.0"/>
+      <pos x="95.41617780190319" y="26.104918105765478"/>
+    </vertex>
+    <vertex id="irritation" background="#ffafaf" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="267.49305316338973" y="68.18214556467076"/>
+    </vertex>
+    <vertex id="contrariété" background="#faacac" excluded="False">
+      <rect x="0.0" y="0.0" width="125.0" height="50.0"/>
+      <pos x="126.14539262700742" y="231.41178128531567"/>
+    </vertex>
+    <vertex id="agacement" background="#f6a9a9" excluded="False">
+      <rect x="0.0" y="0.0" width="111.0" height="50.0"/>
+      <pos x="342.21198619076165" y="126.25904581824798"/>
+    </vertex>
+    <vertex id="impatience" background="#f2a6a6" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="249.2722990707084" y="287.0213958913946"/>
+    </vertex>
+    <vertex id="exaspération" background="#eda3a3" excluded="False">
+      <rect x="0.0" y="0.0" width="131.0" height="50.0"/>
+      <pos x="449.52270377363493" y="73.2959805634059"/>
+    </vertex>
+    <vertex id="frustration" background="#e9a0a0" excluded="False">
+      <rect x="0.0" y="0.0" width="125.0" height="50.0"/>
+      <pos x="370.67199092414035" y="284.56892056693266"/>
+    </vertex>
+    <vertex id="mécontentement" background="#e59d9d" excluded="False">
+      <rect x="0.0" y="0.0" width="145.0" height="50.0"/>
+      <pos x="526.1382038254859" y="15.401744029138548"/>
+    </vertex>
+    <vertex id="rancune" background="#e09a9a" excluded="False">
+      <rect x="0.0" y="0.0" width="97.0" height="50.0"/>
+      <pos x="500.7886136991251" y="216.41669134609006"/>
+    </vertex>
+    <vertex id="hostilité" background="#dc9797" excluded="False">
+      <rect x="0.0" y="0.0" width="111.0" height="50.0"/>
+      <pos x="391.03379546325186" y="349.5620710162069"/>
+    </vertex>
+    <vertex id="énervement" background="#d89494" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="272.90184383577" y="462.9264190808919"/>
+    </vertex>
+    <vertex id="colère_sourde" background="#d39191" excluded="False">
+      <rect x="0.0" y="0.0" width="138.0" height="50.0"/>
+      <pos x="589.2633008349158" y="167.0768294370099"/>
+    </vertex>
+    <vertex id="indignation" background="#cf8e8e" excluded="False">
+      <rect x="0.0" y="0.0" width="125.0" height="50.0"/>
+      <pos x="506.6612799933905" y="383.8919195804407"/>
+    </vertex>
+    <vertex id="animosité" background="#cb8b8b" excluded="False">
+      <rect x="0.0" y="0.0" width="111.0" height="50.0"/>
+      <pos x="369.17691013126614" y="524.4071686662406"/>
+    </vertex>
+    <vertex id="rage_contenue" background="#c68888" excluded="False">
+      <rect x="0.0" y="0.0" width="138.0" height="50.0"/>
+      <pos x="691.4345351850044" y="104.77425982949285"/>
+    </vertex>
+    <vertex id="fureur" background="#c28585" excluded="False">
+      <rect x="0.0" y="0.0" width="90.0" height="50.0"/>
+      <pos x="661.5647896569749" y="284.62596601919734"/>
+    </vertex>
+    <vertex id="violence_verbale" background="#be8282" excluded="False">
+      <rect x="0.0" y="0.0" width="159.0" height="50.0"/>
+      <pos x="502.7417359459546" y="473.88761557674985"/>
+    </vertex>
+    <vertex id="emportement" background="#b97f7f" excluded="False">
+      <rect x="0.0" y="0.0" width="125.0" height="50.0"/>
+      <pos x="326.53595665927594" y="641.1479304497826"/>
+    </vertex>
+    <vertex id="colère_explosive" background="#b57c7c" excluded="False">
+      <rect x="0.0" y="0.0" width="159.0" height="50.0"/>
+      <pos x="737.4227100488522" y="234.48249142757044"/>
+    </vertex>
+    <vertex id="haine" background="#b17979" excluded="False">
+      <rect x="0.0" y="0.0" width="84.0" height="50.0"/>
+      <pos x="698.6273609624394" y="418.62736770269055"/>
+    </vertex>
+    <vertex id="fureur_destructrice" background="#ac7676" excluded="False">
+      <rect x="0.0" y="0.0" width="179.0" height="50.0"/>
+      <pos x="490.4710360773522" y="606.1318997344239"/>
+    </vertex>
+    <vertex id="Tristesse" background="#ffffaf" excluded="False">
+      <rect x="0.0" y="0.0" width="150.0" height="150.0"/>
+      <pos x="-74.60470308826123" y="108.78150656450896"/>
+    </vertex>
+    <vertex id="nostalgie" background="#ffffaf" excluded="False">
+      <rect x="0.0" y="0.0" width="111.0" height="50.0"/>
+      <pos x="50.150783084623356" y="314.53586016984565"/>
+    </vertex>
+    <vertex id="mélancolie" background="#fafaac" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="-140.32540788487572" y="316.84459582198446"/>
+    </vertex>
+    <vertex id="abattement" background="#f6f6a9" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="85.37045236057565" y="378.5227897813924"/>
+    </vertex>
+    <vertex id="langueur" background="#f2f2a6" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-68.3160179154528" y="403.2607347716315"/>
+    </vertex>
+    <vertex id="morosité" background="#ededa3" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-209.90560067787203" y="373.42099676386977"/>
+    </vertex>
+    <vertex id="désenchantement" background="#e9e9a0" excluded="False">
+      <rect x="0.0" y="0.0" width="152.0" height="50.0"/>
+      <pos x="38.04090613189486" y="472.673083301751"/>
+    </vertex>
+    <vertex id="lassitude" background="#e5e59d" excluded="False">
+      <rect x="0.0" y="0.0" width="111.0" height="50.0"/>
+      <pos x="-150.09626015775876" y="480.51097266284233"/>
+    </vertex>
+    <vertex id="découragement" background="#e0e09a" excluded="False">
+      <rect x="0.0" y="0.0" width="138.0" height="50.0"/>
+      <pos x="203.48404883484636" y="519.2894495883179"/>
+    </vertex>
+    <vertex id="inquiétude_pesante" background="#dcdc97" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="-79.3237897476833" y="574.9628556974731"/>
+    </vertex>
+    <vertex id="blues" background="#d8d894" excluded="False">
+      <rect x="0.0" y="0.0" width="84.0" height="50.0"/>
+      <pos x="-227.38465894937605" y="542.856174896028"/>
+    </vertex>
+    <vertex id="peine" background="#d3d391" excluded="False">
+      <rect x="0.0" y="0.0" width="84.0" height="50.0"/>
+      <pos x="-316.45124136619165" y="505.24910212245015"/>
+    </vertex>
+    <vertex id="affliction" background="#cfcf8e" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="179.5896981759133" y="617.867822773064"/>
+    </vertex>
+    <vertex id="pleurs_silencieux" background="#cbcb8b" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="-84.16908535788014" y="660.7122543652848"/>
+    </vertex>
+    <vertex id="désespoir_latent" background="#c6c688" excluded="False">
+      <rect x="0.0" y="0.0" width="159.0" height="50.0"/>
+      <pos x="-374.4256708666969" y="598.110616068923"/>
+    </vertex>
+    <vertex id="tristesse_profonde" background="#c2c285" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="65.45305427229329" y="731.4152385878541"/>
+    </vertex>
+    <vertex id="solitude_écrasante" background="#bebe82" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="-255.49558804916614" y="725.2436139760746"/>
+    </vertex>
+    <vertex id="dépression" background="#b9b97f" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="347.54636971981915" y="729.5952072592672"/>
+    </vertex>
+    <vertex id="désolation" background="#b5b57c" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="179.63653674035464" y="798.2535945160456"/>
+    </vertex>
+    <vertex id="désespoir_intense" background="#b1b179" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="-86.02361819928049" y="832.1356145125496"/>
+    </vertex>
+    <vertex id="vide_existentiel" background="#acac76" excluded="False">
+      <rect x="0.0" y="0.0" width="159.0" height="50.0"/>
+      <pos x="-380.3195029146989" y="780.4917278502983"/>
+    </vertex>
+    <vertex id="Peur" background="#afffaf" excluded="False">
+      <rect x="0.0" y="0.0" width="150.0" height="150.0"/>
+      <pos x="-230.8462210972777" y="22.99910646155412"/>
+    </vertex>
+    <vertex id="inquiétude_légère" background="#afffaf" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="-409.0835576310145" y="129.0321866531386"/>
+    </vertex>
+    <vertex id="appréhension" background="#acfaac" excluded="False">
+      <rect x="0.0" y="0.0" width="131.0" height="50.0"/>
+      <pos x="-413.62680639686647" y="224.96238928221536"/>
+    </vertex>
+    <vertex id="nervosité" background="#a9f6a9" excluded="False">
+      <rect x="0.0" y="0.0" width="111.0" height="50.0"/>
+      <pos x="-471.7553863233316" y="-3.2158660386321536"/>
+    </vertex>
+    <vertex id="crainte" background="#a6f2a6" excluded="False">
+      <rect x="0.0" y="0.0" width="97.0" height="50.0"/>
+      <pos x="-435.1209091300265" y="314.1372414551948"/>
+    </vertex>
+    <vertex id="gêne" background="#a3eda3" excluded="False">
+      <rect x="0.0" y="0.0" width="77.0" height="50.0"/>
+      <pos x="-497.3622007468305" y="207.2396965295612"/>
+    </vertex>
+    <vertex id="trac" background="#a0e9a0" excluded="False">
+      <rect x="0.0" y="0.0" width="77.0" height="50.0"/>
+      <pos x="-521.9839734581692" y="120.67074492883111"/>
+    </vertex>
+    <vertex id="méfiance" background="#9de59d" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-578.1066457245754" y="-21.111486104128463"/>
+    </vertex>
+    <vertex id="stress" background="#9ae09a" excluded="False">
+      <rect x="0.0" y="0.0" width="90.0" height="50.0"/>
+      <pos x="-470.53494685460697" y="397.9893722133534"/>
+    </vertex>
+    <vertex id="anxiété" background="#97dc97" excluded="False">
+      <rect x="0.0" y="0.0" width="97.0" height="50.0"/>
+      <pos x="-566.9110913797992" y="277.07605058065343"/>
+    </vertex>
+    <vertex id="angoisse" background="#94d894" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-645.6732527033512" y="113.10870806754963"/>
+    </vertex>
+    <vertex id="terreur_anticipée" background="#91d391" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="-528.7840335711887" y="462.080346255065"/>
+    </vertex>
+    <vertex id="peur_sourde" background="#8ecf8e" excluded="False">
+      <rect x="0.0" y="0.0" width="125.0" height="50.0"/>
+      <pos x="-690.3787201938101" y="211.32703629551455"/>
+    </vertex>
+    <vertex id="frayeur" background="#8bcb8b" excluded="False">
+      <rect x="0.0" y="0.0" width="97.0" height="50.0"/>
+      <pos x="-728.7169025780945" y="13.675337169332387"/>
+    </vertex>
+    <vertex id="panique_légère" background="#88c688" excluded="False">
+      <rect x="0.0" y="0.0" width="145.0" height="50.0"/>
+      <pos x="-662.8366049762094" y="517.8046489204563"/>
+    </vertex>
+    <vertex id="effroi" background="#85c285" excluded="False">
+      <rect x="0.0" y="0.0" width="90.0" height="50.0"/>
+      <pos x="-738.8386575743319" y="312.1794152551063"/>
+    </vertex>
+    <vertex id="phobie" background="#82be82" excluded="False">
+      <rect x="0.0" y="0.0" width="90.0" height="50.0"/>
+      <pos x="-769.3466235444596" y="157.61027557639835"/>
+    </vertex>
+    <vertex id="détresse" background="#7fb97f" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-842.5382272045819" y="23.03996051184093"/>
+    </vertex>
+    <vertex id="épouvante" background="#7cb57c" excluded="False">
+      <rect x="0.0" y="0.0" width="111.0" height="50.0"/>
+      <pos x="-611.8959611141114" y="627.0102852002601"/>
+    </vertex>
+    <vertex id="paranoïa" background="#79b179" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-767.7612157435581" y="438.7055771457876"/>
+    </vertex>
+    <vertex id="terreur_paralysante" background="#76ac76" excluded="False">
+      <rect x="0.0" y="0.0" width="179.0" height="50.0"/>
+      <pos x="-954.910586026218" y="212.7030009003226"/>
+    </vertex>
+    <vertex id="Paix" background="#afffff" excluded="False">
+      <rect x="0.0" y="0.0" width="150.0" height="150.0"/>
+      <pos x="-248.20508075688772" y="-175.00000000000003"/>
+    </vertex>
+    <vertex id="calme" background="#afffff" excluded="False">
+      <rect x="0.0" y="0.0" width="84.0" height="50.0"/>
+      <pos x="-381.800646920232" y="-70.67866855278398"/>
+    </vertex>
+    <vertex id="tranquillité" background="#acfafa" excluded="False">
+      <rect x="0.0" y="0.0" width="131.0" height="50.0"/>
+      <pos x="-350.78290877943084" y="-215.17014057551253"/>
+    </vertex>
+    <vertex id="repos" background="#a9f6f6" excluded="False">
+      <rect x="0.0" y="0.0" width="84.0" height="50.0"/>
+      <pos x="-194.47319529283592" y="-308.27934581943276"/>
+    </vertex>
+    <vertex id="légèreté" background="#a6f2f2" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-441.51540077236183" y="-128.9758665897341"/>
+    </vertex>
+    <vertex id="silence_intérieur" background="#a3eded" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="-405.7720800646224" y="-342.89587897119645"/>
+    </vertex>
+    <vertex id="relâchement" background="#a0e9e9" excluded="False">
+      <rect x="0.0" y="0.0" width="125.0" height="50.0"/>
+      <pos x="-571.733869383538" y="-184.22924711605805"/>
+    </vertex>
+    <vertex id="détente" background="#9de5e5" excluded="False">
+      <rect x="0.0" y="0.0" width="97.0" height="50.0"/>
+      <pos x="-485.8093480627923" y="-290.2500714032403"/>
+    </vertex>
+    <vertex id="quiétude" background="#9ae0e0" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-376.5216716329151" y="-423.96801946891145"/>
+    </vertex>
+    <vertex id="harmonie" background="#97dcdc" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-639.2829337308862" y="-97.2389289449811"/>
+    </vertex>
+    <vertex id="équilibre" background="#94d8d8" excluded="False">
+      <rect x="0.0" y="0.0" width="111.0" height="50.0"/>
+      <pos x="-613.9277303615889" y="-239.24118084515686"/>
+    </vertex>
+    <vertex id="acceptation" background="#91d3d3" excluded="False">
+      <rect x="0.0" y="0.0" width="125.0" height="50.0"/>
+      <pos x="-531.7154590161203" y="-398.9476608033423"/>
+    </vertex>
+    <vertex id="sérénité_douce" background="#8ecfcf" excluded="False">
+      <rect x="0.0" y="0.0" width="145.0" height="50.0"/>
+      <pos x="-752.2147476823368" y="-42.08805091065021"/>
+    </vertex>
+    <vertex id="clarité_mentale" background="#8bcbcb" excluded="False">
+      <rect x="0.0" y="0.0" width="152.0" height="50.0"/>
+      <pos x="-715.8303218641332" y="-294.3160559591535"/>
+    </vertex>
+    <vertex id="présence_paisible" background="#88c6c6" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="-544.6658472856159" y="-528.5163774814627"/>
+    </vertex>
+    <vertex id="lucidité_tranquille" background="#85c2c2" excluded="False">
+      <rect x="0.0" y="0.0" width="179.0" height="50.0"/>
+      <pos x="-841.1148192875719" y="-198.715872169578"/>
+    </vertex>
+    <vertex id="confiance_posée" background="#82bebe" excluded="False">
+      <rect x="0.0" y="0.0" width="152.0" height="50.0"/>
+      <pos x="-696.3055603616502" y="-481.7863990674741"/>
+    </vertex>
+    <vertex id="plénitude" background="#7fb9b9" excluded="False">
+      <rect x="0.0" y="0.0" width="111.0" height="50.0"/>
+      <pos x="-514.5707834509807" y="-629.5091052186145"/>
+    </vertex>
+    <vertex id="paix_intérieure" background="#7cb5b5" excluded="False">
+      <rect x="0.0" y="0.0" width="152.0" height="50.0"/>
+      <pos x="-924.9308232985563" y="-143.3652601258312"/>
+    </vertex>
+    <vertex id="alignement_profond" background="#79b1b1" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="-849.1440359470961" y="-426.31511789283934"/>
+    </vertex>
+    <vertex id="union_spirituelle" background="#76acac" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="-648.8672568758237" y="-685.0183796935099"/>
+    </vertex>
+    <vertex id="Joie" background="#afafff" excluded="False">
+      <rect x="0.0" y="0.0" width="150.0" height="150.0"/>
+      <pos x="-75.00000000000004" y="-275.0"/>
+    </vertex>
+    <vertex id="satisfaction" background="#afafff" excluded="False">
+      <rect x="0.0" y="0.0" width="131.0" height="50.0"/>
+      <pos x="-129.75352219057905" y="-364.5708680510786"/>
+    </vertex>
+    <vertex id="plaisir" background="#acacfa" excluded="False">
+      <rect x="0.0" y="0.0" width="97.0" height="50.0"/>
+      <pos x="31.438468259525834" y="-358.4079508657285"/>
+    </vertex>
+    <vertex id="contentement" background="#a9a9f6" excluded="False">
+      <rect x="0.0" y="0.0" width="131.0" height="50.0"/>
+      <pos x="-225.3042249130014" y="-422.6632734961955"/>
+    </vertex>
+    <vertex id="réjouissance" background="#a6a6f2" excluded="False">
+      <rect x="0.0" y="0.0" width="131.0" height="50.0"/>
+      <pos x="-27.863138012344436" y="-451.91560759414415"/>
+    </vertex>
+    <vertex id="sourire_intérieur" background="#a3a3ed" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="-289.0779620713794" y="-495.9727608947284"/>
+    </vertex>
+    <vertex id="léger_enthousiasme" background="#a0a0e9" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="-5.141963103816522" y="-532.8895291179596"/>
+    </vertex>
+    <vertex id="agréable_surprise" background="#9d9de5" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="-283.1526508550098" y="-587.5038940201749"/>
+    </vertex>
+    <vertex id="vivacité" background="#9a9ae0" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="-50.62962271657997" y="-624.9984350530434"/>
+    </vertex>
+    <vertex id="bonne_humeur" background="#9797dc" excluded="False">
+      <rect x="0.0" y="0.0" width="131.0" height="50.0"/>
+      <pos x="101.50641574729912" y="-601.2888660205404"/>
+    </vertex>
+    <vertex id="joie_simple" background="#9494d8" excluded="False">
+      <rect x="0.0" y="0.0" width="125.0" height="50.0"/>
+      <pos x="-366.5082839039366" y="-643.0739472106518"/>
+    </vertex>
+    <vertex id="éclat_de_rire" background="#9191d3" excluded="False">
+      <rect x="0.0" y="0.0" width="138.0" height="50.0"/>
+      <pos x="-177.994718586685" y="-701.9964792765634"/>
+    </vertex>
+    <vertex id="excitation_positive" background="#8e8ecf" excluded="False">
+      <rect x="0.0" y="0.0" width="179.0" height="50.0"/>
+      <pos x="68.21060496608368" y="-692.3315867796795"/>
+    </vertex>
+    <vertex id="jubilation" background="#8b8bcb" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="-406.4405784610871" y="-713.757638981196"/>
+    </vertex>
+    <vertex id="fierté" background="#8888c6" excluded="False">
+      <rect x="0.0" y="0.0" width="90.0" height="50.0"/>
+      <pos x="-267.88867154598313" y="-763.5273731641862"/>
+    </vertex>
+    <vertex id="bonheur_partagé" background="#8585c2" excluded="False">
+      <rect x="0.0" y="0.0" width="152.0" height="50.0"/>
+      <pos x="-125.81283557366223" y="-794.8186294371146"/>
+    </vertex>
+    <vertex id="euphorie_légère" background="#8282be" excluded="False">
+      <rect x="0.0" y="0.0" width="152.0" height="50.0"/>
+      <pos x="123.66040622194421" y="-770.1427802801384"/>
+    </vertex>
+    <vertex id="bonheur_profond" background="#7f7fb9" excluded="False">
+      <rect x="0.0" y="0.0" width="152.0" height="50.0"/>
+      <pos x="-460.7020200463164" y="-790.962292363863"/>
+    </vertex>
+    <vertex id="ravissement" background="#7c7cb5" excluded="False">
+      <rect x="0.0" y="0.0" width="125.0" height="50.0"/>
+      <pos x="-241.88272430505145" y="-863.1621059030994"/>
+    </vertex>
+    <vertex id="extase_joyeuse" background="#7979b1" excluded="False">
+      <rect x="0.0" y="0.0" width="145.0" height="50.0"/>
+      <pos x="-43.38505905538891" y="-881.6482345541909"/>
+    </vertex>
+    <vertex id="ivresse_du_bonheur" background="#7676ac" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="205.76463807846466" y="-830.9573645782777"/>
+    </vertex>
+    <vertex id="Sérénité" background="#ffafff" excluded="False">
+      <rect x="0.0" y="0.0" width="150.0" height="150.0"/>
+      <pos x="89.9174861124632" y="-166.34192294553117"/>
+    </vertex>
+    <vertex id="apaisement" background="#ffafff" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="170.2858107230274" y="-279.9098613417051"/>
+    </vertex>
+    <vertex id="zénitude" background="#faacfa" excluded="False">
+      <rect x="0.0" y="0.0" width="104.0" height="50.0"/>
+      <pos x="248.35874852978463" y="-135.55940462889623"/>
+    </vertex>
+    <vertex id="allégement" background="#f6a9f6" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="282.58622359245936" y="-54.49359693231038"/>
+    </vertex>
+    <vertex id="clarté" background="#f2a6f2" excluded="False">
+      <rect x="0.0" y="0.0" width="90.0" height="50.0"/>
+      <pos x="238.27678801528003" y="-346.6018202055163"/>
+    </vertex>
+    <vertex id="sérénité_discrète" background="#eda3ed" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="299.7385338156561" y="-211.0051008195028"/>
+    </vertex>
+    <vertex id="acceptation_paisible" background="#e9a0e9" excluded="False">
+      <rect x="0.0" y="0.0" width="186.0" height="50.0"/>
+      <pos x="219.09057024472372" y="-433.7655463498488"/>
+    </vertex>
+    <vertex id="présence_calme" background="#e59de5" excluded="False">
+      <rect x="0.0" y="0.0" width="145.0" height="50.0"/>
+      <pos x="436.45174594661705" y="-266.31741524891765"/>
+    </vertex>
+    <vertex id="assurance_tranquille" background="#e09ae0" excluded="False">
+      <rect x="0.0" y="0.0" width="186.0" height="50.0"/>
+      <pos x="212.90239541472522" y="-532.7317233522715"/>
+    </vertex>
+    <vertex id="confiance_paisible" background="#dc97dc" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="377.4839618614846" y="-335.0124823613737"/>
+    </vertex>
+    <vertex id="équanimité" background="#d894d8" excluded="False">
+      <rect x="0.0" y="0.0" width="118.0" height="50.0"/>
+      <pos x="509.89611182887654" y="-171.11198394783543"/>
+    </vertex>
+    <vertex id="douceur_intérieure" background="#d391d3" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="312.31863936243735" y="-588.6382398907051"/>
+    </vertex>
+    <vertex id="stabilité_émotionnelle" background="#cf8ecf" excluded="False">
+      <rect x="0.0" y="0.0" width="200.0" height="50.0"/>
+      <pos x="524.6967737485473" y="-390.1872154033522"/>
+    </vertex>
+    <vertex id="immobilité_sereine" background="#cb8bcb" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="579.4679069893122" y="-115.91117874366022"/>
+    </vertex>
+    <vertex id="ancrage" background="#c688c6" excluded="False">
+      <rect x="0.0" y="0.0" width="97.0" height="50.0"/>
+      <pos x="400.82405570487884" y="-649.3473375775297"/>
+    </vertex>
+    <vertex id="compassion_paisible" background="#c285c2" excluded="False">
+      <rect x="0.0" y="0.0" width="179.0" height="50.0"/>
+      <pos x="508.25148597571103" y="-512.6424938724635"/>
+    </vertex>
+    <vertex id="élan_de_sagesse" background="#be82be" excluded="False">
+      <rect x="0.0" y="0.0" width="152.0" height="50.0"/>
+      <pos x="643.6180353265296" y="-302.9423034536338"/>
+    </vertex>
+    <vertex id="pureté_spirituelle" background="#b97fb9" excluded="False">
+      <rect x="0.0" y="0.0" width="172.0" height="50.0"/>
+      <pos x="713.5071355777064" y="-60.68318289150242"/>
+    </vertex>
+    <vertex id="sérénité_profonde" background="#b57cb5" excluded="False">
+      <rect x="0.0" y="0.0" width="165.0" height="50.0"/>
+      <pos x="508.1011760498237" y="-646.1957247112905"/>
+    </vertex>
+    <vertex id="conscience_éveillée" background="#b179b1" excluded="False">
+      <rect x="0.0" y="0.0" width="179.0" height="50.0"/>
+      <pos x="663.1980307465245" y="-445.3687796686138"/>
+    </vertex>
+    <vertex id="illumination_paisible" background="#ac76ac" excluded="False">
+      <rect x="0.0" y="0.0" width="193.0" height="50.0"/>
+      <pos x="747.4766864522426" y="-174.6570421868388"/>
+    </vertex>
+    <transition id="Vie-&gt;Colère:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-24.868234362753757" y="-52.0"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Vie-&gt;Tristesse:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-24.868234362753757" y="-52.0"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Vie-&gt;Peur:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-24.868234362753757" y="-52.0"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Vie-&gt;Paix:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-24.868234362753757" y="-52.0"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Vie-&gt;Joie:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-24.868234362753757" y="-52.0"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Vie-&gt;Sérénité:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-24.868234362753757" y="-52.0"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Colère-&gt;irritation:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="145.4161778019032" y="47.71466169305351"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="irritation-&gt;contrariété:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="357.49305316338973" y="93.18214556467076"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="contrariété-&gt;agacement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="214.90289942447583" y="257.947136356443"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="agacement-&gt;impatience:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="432.21198619076165" y="152.6456162356933"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="impatience-&gt;exaspération:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="339.2722990707084" y="310.4054274925082"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="exaspération-&gt;frustration:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="539.5227037736349" y="98.2959805634059"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="frustration-&gt;mécontentement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="459.92445052770324" y="310.4054274925082"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="mécontentement-&gt;rancune:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="615.4174887870166" y="39.53854059923547"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="rancune-&gt;hostilité:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="596.073400582147" y="241.41669134609006"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="hostilité-&gt;énervement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="446.53379546325186" y="374.5620710162069"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="énervement-&gt;colère_sourde:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="362.90184383577" y="487.5033826679785"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="colère_sourde-&gt;indignation:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="679.2633008349158" y="192.0768294370099"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="indignation-&gt;animosité:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="596.073400582147" y="408.8919195804407"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="animosité-&gt;rage_contenue:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="459.92445052770324" y="549.4071686662406"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="rage_contenue-&gt;fureur:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="781.4345351850044" y="130.7778831970009"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="fureur-&gt;violence_verbale:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="752.3814102017498" y="310.4054274925082"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="violence_verbale-&gt;emportement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="596.073400582147" y="501.44431217178266"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="emportement-&gt;colère_explosive:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="416.53595665927594" y="666.1479304497826"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="colère_explosive-&gt;haine:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="827.4227100488522" y="257.947136356443"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="haine-&gt;fureur_destructrice:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="788.6273609624394" y="443.62736770269055"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Tristesse-&gt;nostalgie:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-24.868234362753757" y="130.7778831970009"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="nostalgie-&gt;mélancolie:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="140.0341345985433" y="339.4242781755328"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="mélancolie-&gt;abattement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-50.325407884875716" y="339.4242781755328"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="abattement-&gt;langueur:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="175.37045236057565" y="403.5227897813924"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="langueur-&gt;morosité:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="21.683982084547196" y="428.2607347716315"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="morosité-&gt;désenchantement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-119.90560067787203" y="398.42099676386977"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="désenchantement-&gt;lassitude:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="128.04090613189487" y="501.44431217178266"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="lassitude-&gt;découragement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-60.09626015775876" y="501.44431217178266"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="découragement-&gt;inquiétude_pesante:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="293.48404883484636" y="543.547049254387"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="inquiétude_pesante-&gt;blues:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="6.827835565052022" y="599.9628556974731"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="blues-&gt;peine:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-136.34444193118873" y="567.856174896028"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="peine-&gt;affliction:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-226.45124136619165" y="530.2491021224502"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="affliction-&gt;pleurs_silencieux:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="269.61311745813396" y="642.867822773064"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="pleurs_silencieux-&gt;désespoir_latent:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="6.827835565052022" y="685.7122543652848"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="désespoir_latent-&gt;tristesse_profonde:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-285.473671249806" y="623.110616068923"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="tristesse_profonde-&gt;solitude_écrasante:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="156.83182961918848" y="753.7513532743986"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="solitude_écrasante-&gt;dépression:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-165.49558804916614" y="753.7513532743986"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="dépression-&gt;désolation:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="437.54636971981915" y="753.7513532743986"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="désolation-&gt;désespoir_intense:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="269.61311745813396" y="823.2535945160456"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="désespoir_intense-&gt;vide_existentiel:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="6.827835565052022" y="857.1356145125496"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Peur-&gt;inquiétude_légère:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-179.3674463216304" y="47.71466169305351"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="inquiétude_légère-&gt;appréhension:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-318.7307556383977" y="152.6456162356933"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="appréhension-&gt;nervosité:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-318.7307556383977" y="249.96238928221536"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="nervosité-&gt;crainte:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-382.03322708024365" y="21.784133961367846"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="crainte-&gt;gêne:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-345.1209091300265" y="339.4242781755328"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="gêne-&gt;trac:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-407.3622007468305" y="234.28336641253787"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="trac-&gt;méfiance:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-431.9839734581692" y="145.6707449288311"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="méfiance-&gt;stress:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-488.1066457245754" y="3.8885138958715366"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="stress-&gt;anxiété:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-382.03322708024365" y="422.9893722133534"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="anxiété-&gt;angoisse:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-479.32248038166864" y="302.07605058065343"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="angoisse-&gt;terreur_anticipée:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-555.6732527033512" y="138.10870806754963"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="terreur_anticipée-&gt;peur_sourde:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-438.7795471782234" y="487.5033826679785"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="peur_sourde-&gt;frayeur:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-600.3787201938101" y="234.28336641253787"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="frayeur-&gt;panique_légère:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-638.7169025780945" y="39.53854059923547"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="panique_légère-&gt;effroi:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-572.8366049762094" y="543.547049254387"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="effroi-&gt;phobie:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-648.8386575743319" y="339.4242781755328"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="phobie-&gt;détresse:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-679.3466235444596" y="182.61027557639835"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="détresse-&gt;épouvante:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-751.8265232460769" y="47.71466169305351"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="épouvante-&gt;paranoïa:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-522.9118457378502" y="652.0102852002601"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="paranoïa-&gt;terreur_paralysante:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-715.7612157435581" y="463.7055771457876"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Paix-&gt;calme:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-198.64152141413354" y="-147.2533278805657"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="calme-&gt;tranquillité:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-291.800646920232" y="-45.678668552783975"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="tranquillité-&gt;repos:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-260.78290877943084" y="-188.08762069750765"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="repos-&gt;légèreté:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-104.47319529283592" y="-283.27934581943276"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="légèreté-&gt;silence_intérieur:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-351.51540077236183" y="-103.9758665897341"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="silence_intérieur-&gt;relâchement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-318.7307556383977" y="-319.7488495883564"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="relâchement-&gt;détente:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-479.32248038166864" y="-159.22924711605805"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="détente-&gt;quiétude:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-438.7795471782234" y="-267.28306368119695"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="quiétude-&gt;harmonie:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-285.473671249806" y="-399.31547028598203"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="harmonie-&gt;équilibre:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-549.2829337308862" y="-72.2389289449811"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="équilibre-&gt;acceptation:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-522.9118457378502" y="-214.24118084515686"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="acceptation-&gt;sérénité_douce:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-438.7795471782234" y="-373.9476608033423"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="sérénité_douce-&gt;clarité_mentale:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-661.9879817129474" y="-17.08805091065021"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="clarité_mentale-&gt;présence_paisible:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-625.8303218641332" y="-267.28306368119695"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="présence_paisible-&gt;lucidité_tranquille:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-454.6658472856159" y="-506.3792099838979"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="lucidité_tranquille-&gt;confiance_posée:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-751.8265232460769" y="-173.715872169578"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="confiance_posée-&gt;plénitude:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-606.3055603616502" y="-456.7863990674741"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="plénitude-&gt;paix_intérieure:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-424.5707834509807" y="-602.253770135829"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="paix_intérieure-&gt;alignement_profond:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-834.9308232985563" y="-118.36526012583121"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="alignement_profond-&gt;union_spirituelle:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-759.1440359470961" y="-399.31547028598203"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Joie-&gt;satisfaction:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-24.868234362753757" y="-253.45493067085255"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="satisfaction-&gt;plaisir:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-37.78317888212064" y="-339.5708680510786"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="plaisir-&gt;contentement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="121.43846825952583" y="-333.4079508657285"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="contentement-&gt;réjouissance:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-136.34444193118873" y="-399.31547028598203"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="réjouissance-&gt;sourire_intérieur:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="62.136861987655564" y="-426.91560759414415"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="sourire_intérieur-&gt;léger_enthousiasme:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-198.64152141413354" y="-470.9727608947284"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="léger_enthousiasme-&gt;agréable_surprise:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="84.85803689618348" y="-506.3792099838979"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="agréable_surprise-&gt;vivacité:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-193.15265085500982" y="-563.0710669554401"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="vivacité-&gt;bonne_humeur:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="39.37037728342003" y="-602.253770135829"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="bonne_humeur-&gt;joie_simple:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="191.50641574729912" y="-576.2888660205404"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="joie_simple-&gt;éclat_de_rire:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-276.5082839039366" y="-619.4278920553795"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="éclat_de_rire-&gt;excitation_positive:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-87.994718586685" y="-676.9964792765634"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="excitation_positive-&gt;jubilation:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="156.83182961918848" y="-667.3315867796795"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="jubilation-&gt;fierté:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-318.7307556383977" y="-688.757638981196"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="fierté-&gt;bonheur_partagé:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-179.3674463216304" y="-738.5273731641862"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="bonheur_partagé-&gt;euphorie_légère:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-37.78317888212064" y="-767.8904609004887"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="euphorie_légère-&gt;bonheur_profond:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="214.90289942447583" y="-745.1427802801384"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="bonheur_profond-&gt;ravissement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-370.7020200463164" y="-767.8904609004887"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="ravissement-&gt;extase_joyeuse:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="-151.88272430505145" y="-838.1621059030994"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="extase_joyeuse-&gt;ivresse_du_bonheur:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="46.61494094461109" y="-856.6482345541909"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="Sérénité-&gt;apaisement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="140.0341345985433" y="-147.2533278805657"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="apaisement-&gt;zénitude:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="260.2858107230274" y="-253.45493067085255"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="zénitude-&gt;allégement:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="301.6305719722549" y="-110.55940462889623"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="allégement-&gt;clarté:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="372.58622359245936" y="-29.493596932310382"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="clarté-&gt;sérénité_discrète:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="328.27678801528003" y="-319.7488495883564"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="sérénité_discrète-&gt;acceptation_paisible:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="389.7385338156561" y="-188.08762069750765"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="acceptation_paisible-&gt;présence_calme:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="309.2246593872542" y="-408.7655463498488"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="présence_calme-&gt;assurance_tranquille:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="526.451745946617" y="-241.31741524891765"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="assurance_tranquille-&gt;confiance_paisible:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="301.6305719722549" y="-506.3792099838979"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="confiance_paisible-&gt;équanimité:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="467.4839618614846" y="-310.0124823613737"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="équanimité-&gt;douceur_intérieure:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="596.073400582147" y="-147.2533278805657"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="douceur_intérieure-&gt;stabilité_émotionnelle:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="402.31863936243735" y="-563.0710669554401"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="stabilité_émotionnelle-&gt;immobilité_sereine:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="615.4174887870166" y="-365.1872154033522"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="immobilité_sereine-&gt;ancrage:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="669.4679069893122" y="-90.91117874366022"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="ancrage-&gt;compassion_paisible:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="449.32405570487884" y="-624.3473375775297"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="compassion_paisible-&gt;élan_de_sagesse:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="596.073400582147" y="-487.64249387246355"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="élan_de_sagesse-&gt;pureté_spirituelle:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="733.6180353265296" y="-277.9423034536338"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="pureté_spirituelle-&gt;sérénité_profonde:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="803.5071355777064" y="-35.68318289150242"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="sérénité_profonde-&gt;conscience_éveillée:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="596.073400582147" y="-619.4278920553795"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+    <transition id="conscience_éveillée-&gt;illumination_paisible:">
+      <source_point x="0.5" y="0.5"/>
+      <target_point x="0.5" y="0.5"/>
+      <rule orient="D">
+        <anchor x="752.3814102017498" y="-420.3687796686138"/>
+      </rule>
+      <text_pos x="0.0" y="0.0"/>
+      <text>
+        <rect x="-50.0" y="-10.0" width="100.0" height="20.0"/>
+        <pos x="0.0" y="0.0"/>
+      </text>
+    </transition>
+  </diagram>
+</body>

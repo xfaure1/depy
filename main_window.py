@@ -11,6 +11,7 @@ from PySide6.QtWidgets import QMainWindow, QMessageBox, QHBoxLayout, QCheckBox, 
 
 from cheat_sheet import CheatSheet
 from compileHeaders import GetCmdsErrorFileName
+from constant_value import MODE_GENERATE_NO
 from generate_dot import generate_dot_from_pyreverse, get_dep_from_dot, generate_dot_from_source
 from mode_generate_dep import ModeGenerateDep
 from model.xml_reader import XMLReader
@@ -337,7 +338,7 @@ class MainWindow(QMainWindow):
             if file_name is None:
                 # Get the file name SMS / SMD from module generator
                 file_name = self._mode_generate_dep.get_sms_smd_name()
-        if mode_generate != ModeGenerateDep.MODE_GENERATE_NO:
+        if mode_generate != MODE_GENERATE_NO:
             # Update dependencies
             self.cmd_depend_update()
 
@@ -739,8 +740,7 @@ class MainWindow(QMainWindow):
                 self.MessageBoxCompileFile(resCompilation)
 
     def new_diagram(self, name=''):
-        is_used_diagonal = True
-        diagram = StateDiagram(self, is_used_diagonal)
+        diagram = StateDiagram(self)
         diagram.dirty.connect(self.set_dirty)
         self._diagrams.append(diagram)
         if not name: name = 'Diagram'

@@ -1,0 +1,381 @@
+=toto=
+->Vie
+= Vie =
+->Colère
+->Tristesse
+->Peur
+->Paix
+->Joie
+->Sérénité
+
+= Colère =
+->irritation
+
+= irritation =
+->contrariété
+
+= contrariété =
+->agacement
+
+= agacement =
+->impatience
+
+= impatience =
+->exaspération
+
+= exaspération =
+->frustration
+
+= frustration =
+->mécontentement
+
+= mécontentement =
+->rancune
+
+= rancune =
+->hostilité
+
+= hostilité =
+->énervement
+
+= énervement =
+->colère_sourde
+
+= colère_sourde =
+->indignation
+
+= indignation =
+->animosité
+
+= animosité =
+->rage_contenue
+
+= rage_contenue =
+->fureur
+
+= fureur =
+->violence_verbale
+
+= violence_verbale =
+->emportement
+
+= emportement =
+->colère_explosive
+
+= colère_explosive =
+->haine
+
+= haine =
+->fureur_destructrice
+
+= fureur_destructrice =
+
+= Tristesse =
+->nostalgie
+
+= nostalgie =
+->mélancolie
+
+= mélancolie =
+->abattement
+
+= abattement =
+->langueur
+
+= langueur =
+->morosité
+
+= morosité =
+->désenchantement
+
+= désenchantement =
+->lassitude
+
+= lassitude =
+->découragement
+
+= découragement =
+->inquiétude_pesante
+
+= inquiétude_pesante =
+->blues
+
+= blues =
+->peine
+
+= peine =
+->affliction
+
+= affliction =
+->pleurs_silencieux
+
+= pleurs_silencieux =
+->désespoir_latent
+
+= désespoir_latent =
+->tristesse_profonde
+
+= tristesse_profonde =
+->solitude_écrasante
+
+= solitude_écrasante =
+->dépression
+
+= dépression =
+->désolation
+
+= désolation =
+->désespoir_intense
+
+= désespoir_intense =
+->vide_existentiel
+
+= vide_existentiel =
+
+= Peur =
+->inquiétude_légère
+
+= inquiétude_légère =
+->appréhension
+
+= appréhension =
+->nervosité
+
+= nervosité =
+->crainte
+
+= crainte =
+->gêne
+
+= gêne =
+->trac
+
+= trac =
+->méfiance
+
+= méfiance =
+->stress
+
+= stress =
+->anxiété
+
+= anxiété =
+->angoisse
+
+= angoisse =
+->terreur_anticipée
+
+= terreur_anticipée =
+->peur_sourde
+
+= peur_sourde =
+->frayeur
+
+= frayeur =
+->panique_légère
+
+= panique_légère =
+->effroi
+
+= effroi =
+->phobie
+
+= phobie =
+->détresse
+
+= détresse =
+->épouvante
+
+= épouvante =
+->paranoïa
+
+= paranoïa =
+->terreur_paralysante
+
+= terreur_paralysante =
+
+= Paix =
+->calme
+
+= calme =
+->tranquillité
+
+= tranquillité =
+->repos
+
+= repos =
+->légèreté
+
+= légèreté =
+->silence_intérieur
+
+= silence_intérieur =
+->relâchement
+
+= relâchement =
+->détente
+
+= détente =
+->quiétude
+
+= quiétude =
+->harmonie
+
+= harmonie =
+->équilibre
+
+= équilibre =
+->acceptation
+
+= acceptation =
+->sérénité_douce
+
+= sérénité_douce =
+->clarité_mentale
+
+= clarité_mentale =
+->présence_paisible
+
+= présence_paisible =
+->lucidité_tranquille
+
+= lucidité_tranquille =
+->confiance_posée
+
+= confiance_posée =
+->plénitude
+
+= plénitude =
+->paix_intérieure
+
+= paix_intérieure =
+->alignement_profond
+
+= alignement_profond =
+->union_spirituelle
+
+= union_spirituelle =
+
+= Joie =
+->satisfaction
+
+= satisfaction =
+->plaisir
+
+= plaisir =
+->contentement
+
+= contentement =
+->réjouissance
+
+= réjouissance =
+->sourire_intérieur
+
+= sourire_intérieur =
+->léger_enthousiasme
+
+= léger_enthousiasme =
+->agréable_surprise
+
+= agréable_surprise =
+->vivacité
+
+= vivacité =
+->bonne_humeur
+
+= bonne_humeur =
+->joie_simple
+
+= joie_simple =
+->éclat_de_rire
+
+= éclat_de_rire =
+->excitation_positive
+
+= excitation_positive =
+->jubilation
+
+= jubilation =
+->fierté
+
+= fierté =
+->bonheur_partagé
+
+= bonheur_partagé =
+->euphorie_légère
+
+= euphorie_légère =
+->bonheur_profond
+
+= bonheur_profond =
+->ravissement
+
+= ravissement =
+->extase_joyeuse
+
+= extase_joyeuse =
+->ivresse_du_bonheur
+
+= ivresse_du_bonheur =
+
+= Sérénité =
+->apaisement
+
+= apaisement =
+->zénitude
+
+= zénitude =
+->allégement
+
+= allégement =
+->clarté
+
+= clarté =
+->sérénité_discrète
+
+= sérénité_discrète =
+->acceptation_paisible
+
+= acceptation_paisible =
+->présence_calme
+
+= présence_calme =
+->assurance_tranquille
+
+= assurance_tranquille =
+->confiance_paisible
+
+= confiance_paisible =
+->équanimité
+
+= équanimité =
+->douceur_intérieure
+
+= douceur_intérieure =
+->stabilité_émotionnelle
+
+= stabilité_émotionnelle =
+->immobilité_sereine
+
+= immobilité_sereine =
+->ancrage
+
+= ancrage =
+->compassion_paisible
+
+= compassion_paisible =
+->élan_de_sagesse
+
+= élan_de_sagesse =
+->pureté_spirituelle
+
+= pureté_spirituelle =
+->sérénité_profonde
+
+= sérénité_profonde =
+->conscience_éveillée
+
+= conscience_éveillée =
+->illumination_paisible
+
+= illumination_paisible =

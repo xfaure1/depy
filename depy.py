@@ -7,6 +7,7 @@ from PySide6.QtWidgets import QMessageBox, QApplication
 from main_window import MainWindow
 from mode_generate_dep import ModeGenerateDep
 from model.state_diagram import *
+from tools.cfg import CFG
 
 ROSE_FACTOR = 4
 
@@ -21,7 +22,7 @@ def msg_excepthook(my_type, value, trace_back):
 
 def main():
     # Variables
-    mode_generate = ModeGenerateDep.MODE_GENERATE_NO
+    mode_generate = CFG.get_mode_generate()
     sys.excepthook = msg_excepthook
 
     # Get from argument

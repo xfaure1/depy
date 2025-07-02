@@ -168,4 +168,8 @@ class GraphicsScene(QGraphicsScene):
         super(GraphicsScene, self).mousePressEvent(event)
         self._parent.mousePressEvent()
 
+    def get_vertices(self):
+        return self._vertices_gi
+
+
 

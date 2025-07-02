@@ -3,6 +3,9 @@ import re
 import sys
 import pydot
 
+from constant_value import MODE_GENERATE_PY, MODE_GENERATE_DOT, ALL_MODES, MODE_GENERATE_CPP_HEADER, \
+    MODE_GENERATE_CPP_SRC, MODE_GENERATE_PHP, MODE_GENERATE_XML, MODE_GENERATE_NO
+
 
 # ---------------------------------------------
 # Four Modes :
@@ -14,23 +17,13 @@ import pydot
 
 class ModeGenerateDep:
 
-    MODE_GENERATE_NO = "No"
-    MODE_GENERATE_CPP_SRC = "source"
-    MODE_GENERATE_CPP_HEADER = "header"
-    MODE_GENERATE_PHP = "php"
-    MODE_GENERATE_PY = "python"
-    MODE_GENERATE_XML = "Xml"
-    MODE_GENERATE_DOT = "MyDot"
-    ALL_MODES = [MODE_GENERATE_CPP_SRC, MODE_GENERATE_CPP_HEADER,
-                 MODE_GENERATE_PHP, MODE_GENERATE_PY, MODE_GENERATE_XML, MODE_GENERATE_NO, MODE_GENERATE_DOT]
-
     def is_python(self):
         # Return true if python mode
-        return self.mode == ModeGenerateDep.MODE_GENERATE_PY
+        return self.mode == MODE_GENERATE_PY
 
     def is_dot(self):
         # Return true if dot mode
-        return self.mode == ModeGenerateDep.MODE_GENERATE_DOT
+        return self.mode == MODE_GENERATE_DOT
 
     def __init__(self, mode):
         # Init attributes
@@ -38,11 +31,11 @@ class ModeGenerateDep:
         self.update_smd = False
 
         # If mode is not found
-        if self.mode not in ModeGenerateDep.ALL_MODES:
+        if self.mode not in ALL_MODES:
             # Fatal error
             print("Mode is not found : ")
             print(self.mode)
-            print(str(ModeGenerateDep.ALL_MODES))
+            print(str(ALL_MODES))
             sys.exit(-1)
 
         # Init dot name and base
@@ -64,21 +57,21 @@ class ModeGenerateDep:
         return os.path.join(self.mode, self.mode)
 
     def get_dep_path_code(self):
-        if self.mode == ModeGenerateDep.MODE_GENERATE_CPP_HEADER:
+        if self.mode == MODE_GENERATE_CPP_HEADER:
             return "/home/xfaure/Desktop/GIT/OMEGA_Embedded_Simu/exec/git/OMEGA_Embedded_SW/inc/ExR/Model/Autotests"
-        if self.mode == ModeGenerateDep.MODE_GENERATE_CPP_SRC:
+        if self.mode == MODE_GENERATE_CPP_SRC:
             return "C:\\D\\Img\\qt\\img\\"
         if self.is_python():
             return "C:\\D\\Dev\\STB\\src\\"
         if self.is_dot():
             return "/home/xfaure/Bureau/GIT/OMEGA_Embedded_Simu/tools/"
-        if self.mode == ModeGenerateDep.MODE_GENERATE_PHP or self.mode == ModeGenerateDep.MODE_GENERATE_XML:
+        if self.mode == MODE_GENERATE_PHP or self.mode == MODE_GENERATE_XML:
             return "C:\\D\\Dev\\Mea\\src\\Symbio\\"
         # Return not found
         return "NOT_FOUND_SOURCE_CODE"
 
     def is_enabled_generator(self):
-        return self.mode != ModeGenerateDep.MODE_GENERATE_NO
+        return self.mode != MODE_GENERATE_NO
 
     def generate_sms_smd(self, dep):
 
